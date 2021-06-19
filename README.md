@@ -17,7 +17,7 @@ This should be good to go
 
 ## Task
 
-<img src="task_api.png" height="100">
+<img src="task_api.png" height="800">
 
 
 ## Result
