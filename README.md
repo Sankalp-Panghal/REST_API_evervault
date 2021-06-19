@@ -36,7 +36,7 @@ Sign with SHA256 hashing and our private key
 
 4. /verify
 If provided with correct signature, returns 204 response code
-<img src="ever_verify1.png" width="600"> 
+<img src="ever_verify1.png" width="600">
 
 Or else 400 response code
 <img src="ever_verify2.png" width="600"> 
