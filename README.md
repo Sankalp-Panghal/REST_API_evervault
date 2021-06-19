@@ -15,6 +15,12 @@ This was my first time using
 
 This should be good to go
 
+Now run
+> python evervault_rest_api.py
+
+API should now be live at 127.0.0.1:6362 
+Now you can test working of this API
+
 ## Task
 
 <img src="task_api.png" height="800">
