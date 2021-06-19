@@ -23,3 +23,20 @@ This should be good to go
 ## Result
 
 You can check with POSTMAN software, all endpoints are working fine
+
+1. /encrypt
+<img src="ever_encrypt.png" width="600"> 
+
+2. /decrypt
+<img src="ever_decrypt.png" width="600"> 
+
+3. /sign
+Sign with SHA256 hashing and our private key 
+<img src="ever_sign.png" width="600"> 
+
+4. /verify
+If provided with correct signature, returns 204 response code
+<img src="ever_verify1.png" width="600"> 
+
+Or else 400 response code
+<img src="ever_verify2.png" width="600"> 
