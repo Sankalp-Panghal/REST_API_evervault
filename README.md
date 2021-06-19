@@ -17,7 +17,7 @@ This should be good to go
 
 ## Task
 
-![image](task_api.png)
+![image](task_api.png | height = 150)
 
 
 ## Result
