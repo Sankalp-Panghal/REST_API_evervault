@@ -25,8 +25,9 @@ This should be good to go
 Now in terminal, run
 > python evervault_rest_api.py
 
-API should now be live at **127.0.0.1:6362** 
-(6362 is my car no, you can change it at end of the python file to somthing easier)
+API should now be live at **127.0.0.1:6362**
+
+(6362 is my car no, you can change it at the end of the python file to somthing easier)
 
 Now you can test working of this API
 
