@@ -23,7 +23,7 @@ This was my first time using
 This should be good to go
 
 Now run
-**> python evervault_rest_api.py**
+>** python evervault_rest_api.py**
 
 API should now be live at **127.0.0.1:6362** 
 (6362 is my car no, you can change it at end of the python file to somthing easier)
