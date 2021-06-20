@@ -40,21 +40,21 @@ Now you can test working of this API
 You can check with POSTMAN software, all endpoints are working fine
 
 1. /encrypt
-<img src="ever_encrypt.png" width="600"> 
+<img src="ever_encrypt.png" width="750"> 
 
 2. /decrypt
-<img src="ever_decrypt.png" width="600"> 
+<img src="ever_decrypt.png" width="750"> 
 
 3. /sign
 Sign with SHA256 hashing and our private key 
-<img src="ever_sign.png" width="600"> 
+<img src="ever_sign.png" width="750"> 
 
 4. /verify
 If provided with correct signature, returns 204 response code
-<img src="ever_verify1.png" width="600">
+<img src="ever_verify1.png" width="750">
 
 Or else 400 response code
-<img src="ever_verify2.png" width="600"> 
+<img src="ever_verify2.png" width="750"> 
 
 ## Small Note
 
@@ -77,6 +77,6 @@ Things are kept simple, and is not production ready, reasons -
 
 * <ins> Certificate Authority (CA) </ins> - CA can sign the identity of some server, and a user, **who trusts that CA** (like our browser trusts Google CA) can verify that a signature is signed by that CA using the CA's public key.
 
-*<ins> TLS/SSL <\ins> - A user and server are trying to establish connection. Server will present its identity with signature of a CA. If user trusts CA, it can verify the signature using CA's public key, or else if it doesnt't trust or signature is not verified, either connection is aborted, or we will see untrusted CA in our browser (red warning - we see sometimes).
+*<ins> TLS/SSL </ins> - A user and server are trying to establish connection. Server will present its identity with signature of a CA. If user trusts CA, it can verify the signature using CA's public key, or else if it doesnt't trust or signature is not verified, either connection is aborted, or we will see untrusted CA in our browser (red warning - we see sometimes).
 Once signature is verified, user will generate symmetric key, and share it with server by encrypting it with server's public key. Since this message can only be decrypted with server's private key, only user and server should be having access to the symmetirc key. For all future conversations, user and server will use that symmetric key for encryption/decryption.
 
