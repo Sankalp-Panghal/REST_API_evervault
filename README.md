@@ -54,7 +54,7 @@ If provided with correct signature, returns 204 response code
 <img src="ever_verify1.png" width="850">
 
 Or else 400 response code
-<img src="ever_verify2.png" width="750"> 
+<img src="ever_verify2.png" width="850"> 
 
 ## Small Note
 
