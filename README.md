@@ -27,7 +27,7 @@ Now in terminal, run
 
 API should now be live at **127.0.0.1:6362**
 
-(6362 is my car no, you can change it at the end of the python file to somthing easier)
+(6362 is random no, you can change it at the end of the python file if you wish)
 
 Now you can test working of this API
 
